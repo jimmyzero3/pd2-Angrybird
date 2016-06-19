@@ -20,6 +20,7 @@ public:
 
  public slots:
     void shoot();
+    void showpic();
 
    private:
 

@@ -35,7 +35,7 @@ void CenaBird::skill()
     g_body->CreateFixture(&fixturedef);
 
     QTimer::singleShot(2500,this,SLOT(shoot()));
-
+    QTimer::singleShot(3500,this,SLOT(showpic()));
 
     std::cout<<"Cena!!!"<<std::endl;
 
@@ -47,9 +47,15 @@ void CenaBird::skill()
 
 void CenaBird::shoot()
 {
-    UCSM->show();
+
     g_pixmap.setPixmap(QPixmap(":/cena.png"));
-    setLinearVelocity(b2Vec2(50,0));
+    setLinearVelocity(b2Vec2(30,0));
+}
+
+void CenaBird::showpic()
+{
+
+    UCSM->show();
 }
 
 CenaBird::~CenaBird()

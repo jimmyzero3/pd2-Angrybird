@@ -50,6 +50,6 @@ void Bird::skill()
 
 void Bird::slowdown()
 {
-    setLinearVelocity(b2Vec2(g_body->GetLinearVelocity().x-1,g_body->GetLinearVelocity().y+0.01));
+    setLinearVelocity(b2Vec2(g_body->GetLinearVelocity().x-1.5,g_body->GetLinearVelocity().y+0.01));
 }
 
