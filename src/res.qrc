@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="ground.png">image/GROUND.png</file>
+        <file alias="bird.png">image/Normal_Bird_1.png</file>
+        <file alias="dis.png">image/disface.png</file>
+        <file alias="bkgnd">image/PhotoFunia-1462258166.jpg</file>
+        <file alias="obs.png">image/obstacle.png</file>
+        <file alias="bad.png">image/badface.png</file>
+        <file alias="angry.png">image/angry.png</file>
+        <file alias="happy.png">image/little kid happy.png</file>
+        <file alias="troll.png">image/Transparent_Troll_Face.png</file>
+        <file alias="yao.png">image/Yao-Ming-Fuck-That-Bitch.sh-600x600.png</file>
+        <file alias="cena.png">image/CLChZ9pWIAARb1B.png</file>
+        <file alias="Cena.mp3">image/Cena.mp3</file>
+        <file alias="UCSM.png">image/U_cant_see_me_logon.png</file>
+        <file alias="polish">image/041_Polish Room sketch.preview.jpg</file>
+    </qresource>
+</RCC>
